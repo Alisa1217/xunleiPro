@@ -40,6 +40,7 @@ window.onload = function(){
 	function btnFn(){
 		timer = setInterval(function(){
 			n++;
+			//判断当n的值等于lisBtn的长度时，让n等于0
 			if(n == lisBtn.length){
 				n = 0;
 			}
